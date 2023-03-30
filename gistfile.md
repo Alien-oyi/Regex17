@@ -1,6 +1,6 @@
 # Regex-tutorial
 
-Introductory paragraph (replace this with your text)
+Regular expression is a powerful tool for pattern matching and text manipulation. It's a special sequence of characters that define a search pattern, and can be used in a variety of programming languages and text editors.
 
 ## Summary
 
