@@ -54,7 +54,7 @@ output "Grouping Capturing" <br />
 
 ### Bracket Expressions
 In our example string, /^#?([a-f0-9]{6}|[a-f0-9]{3})$/<br />
-[a-f0-9] denotes the match can be a,b,c,d,e,f,0,1,2,3,4,5,6,7,8,9.<br />
+[a-f0-9] denotes the match charcters can be a,b,c,d,e,f,0,1,2,3,4,5,6,7,8,9.<br />
 {3} quantifier is used to match exactly three occurrences of the preceding element.<br />
 () creates a capture group<br />
 
@@ -73,7 +73,9 @@ let result = text.match(regex);<br />
 output would be "moon"<br />
 
 ### Look-ahead-and-look-behind
-In following example,?=pattern look-ahead matches the current position only if the pattern ahead of the current<br /> position matches,"?=\sbrown" means we need a space before the word "brown".<br />
+In following example,?=pattern look-ahead matches the current position only if the<br />
+pattern ahead of the currentposition matches,"?=\sbrown" means we need a space before <br />
+the word "brown".
 let text = "The quick brown fox jumps over the lazy dog.";<br />
 let regex = /\w+(?=\sbrown)/g;<br />
 let result = text.match(regex);<br />
